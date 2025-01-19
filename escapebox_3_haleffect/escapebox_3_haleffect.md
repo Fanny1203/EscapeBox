@@ -21,10 +21,11 @@ Trois capteurs hal-effect avec résistances et led intégrées:
 - Ou les capteur que nous avons conçus:
 ![Capteur maison](escapebox_3_haleffect_capteurpcb.png)
 
+## Montage
+On recommande l'utilisation de capteurs à effet hal incluant déjà des résistances et une led qui s'allume en cas de détection d'un signal magnétique.
+Dans ce cas, il suffit de brancher les capteurs sur les pins 0, 1 et 2 du microbit "master".
+
 ## Énigme
 L'affiche indique comment faire la correspondance, et dans quel ordre.
 ![Affiche de l'énigme](escapebox_3_haleffect_affiche.png)
 
-## Montage
-On recommande l'utilisation de capteurs à effet hal incluant déjà des résistances et une led qui s'allume en cas de détection d'un signal magnétique.
-Dans ce cas, il suffit de brancher les capteurs sur les pins 0, 1 et 2 du microbit "master".

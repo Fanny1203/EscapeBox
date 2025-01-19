@@ -15,11 +15,12 @@ Un modèle de reconnaissance d'images pré-entrainé à reconnaitre une image en
 Sur l'ordinateur, la page web qui filme et fait analyser l'image par le modèle
 Un deuxième microbit branché à la guirlande (voir schéma de montage)
 
-
-## Énigme
-L'affiche précédente indiquait les informations (avec l'image obtenue, aller à telle adresse et faire une reconnaissance pour faire allumer la guirlande)
-
 ## Montage
 Pour la guirlande, il s'agit de faire un deuxième interrupteur, en parallèle de celui associé au bouton. Ce deuxième interrupteur est contrôlé par le microbit de la guirlande.
 Comme une guirlande fonctionne en 12V, il convient d'utiliser un transistor ou un mofset pour que le circuit 5V du microbit agisse sur le circuit 12V de la guirlande.
 ![Schéma de montage pour la guirlande](escapebox_4_avecia_schéma.png)
+
+## Énigme
+L'affiche précédente indiquait les informations (avec l'image obtenue, aller à telle adresse et faire une reconnaissance pour faire allumer la guirlande)
+
+

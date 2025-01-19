@@ -13,10 +13,11 @@ Une boite en bois
 Un cadenas et deux fermoirs où passer le cadenas (trouver la bonne distance pour que la boite ne s'entrouve pas quand le cadenas est mis)
 Un microbit
 
+## Montage
+On utilise directement le module Orientation des microbits. Aucun branchement à faire.
+
 ## Énigme
 Sur la boite, une liste d'icones. Chacune correspond à une orientation, donnée par un plan.
 
 ![Affiche de l'énigme](escapebox_1_orientation_affiche.png)
 
-## Montage
-On utilise directement le module Orientation des microbits. Aucun branchement à faire.

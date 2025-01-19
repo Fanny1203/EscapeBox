@@ -13,12 +13,14 @@ Remarque: si on veut éviter que le robot soit branché à l'ordinateur, on peut
 Un ordinateur avec un  microbit branché (communication série entre l'ordinateur et le microbit)
 Sur l'ordinateur, la page web qui écoute la série et peut déclencher une animation.
 
+
+## Montage
+Presque rien à monter ! Un fil qui part du pin 0 du microbit et un autre qui part du ground. Quand le circuit est fermé par la chaine humaine, le microbit le détecte (fonction spéciale: `is_touched()` )
+
 ## Énigme
 L'affiche indique comment faire la correspondance, et dans quel ordre.
 ![Affiche de l'énigme](escapebox_5_chainehumaine_affiche.png)
 
 
-## Montage
-Presque rien à monter ! Un fil qui part du pin 0 du microbit et un autre qui part du ground. Quand le circuit est fermé par la chaine humaine, le microbit le détecte (fonction spéciale: `is_touched()` )
 
 
