@@ -15,6 +15,8 @@ Deux microbit
 Trois photorésistances (très bon marché, en général inclues dans les kits de démarages en électronique)
 
 
+## Montage
+Brancher les photorésistances aux pins 0, 1 et 2 du microbit.
 
 ## Énigme
 
@@ -24,5 +26,3 @@ Compléter svg
 L'énigme permet de savoir qu'il faut éclairer la guirlande et l'étoile mais pas le père noël.
 ![Affiche de l'énigme](escapebox_2_lux_affiche.png)
 
-## Montage
-Brancher les photorésistances aux pins 0, 1 et 2 du microbit.
