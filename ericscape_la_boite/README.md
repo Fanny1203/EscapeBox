@@ -1,6 +1,6 @@
 # L'ericscape
 
-Ajouter une vidéo.
+[Démo en vidéo](https://youtube.com/shorts/6Gow31ggFCI?feature=share)
 
 ## Genèse
 En général les boites d'escape game fonctionnent avec des élектro-aimants: ces aimants sont alumés par défaut et sont éteints quand la bonne action est entreprise, permetant l'ouverture de la boite. C'est un peu dommage d'avoir ce fonctionnnement "on" par défaut et nous avons réfléchi à une boite qui fonctionnerait au contraire en étant fermée "au repos" et qui a besoin d'alimentation pour s'ouvrir.

@@ -1,6 +1,6 @@
 # Escape Box - Enigme lux
 
-[![Miniature vidéo](https://img.youtube.com/vi/2xihjn7eewY/0.jpg)](https://www.youtube.com/watch?v=2xihjn7eewY)
+[Démo en vidéo](https://youtube.com/shorts/C--asITL_wY?feature=share)
 
 ## Description
 Sur une boite séparée, des capteurs de lumière sont installés. Il faut en éclairer certains et pas d'autres.
