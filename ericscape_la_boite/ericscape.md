@@ -1,6 +1,6 @@
 # L'ericscape
 
-[![Miniature vidéo](https://img.youtube.com/vi/kynYglUlyQ0/0.jpg)](https://www.youtube.com/watch?v=kynYglUlyQ0)
+Ajouter une vidéo.
 
 ## Genèse
 En général les boites d'escape game fonctionnent avec des élектro-aimants: ces aimants sont alumés par défaut et sont éteints quand la bonne action est entreprise, permetant l'ouverture de la boite. C'est un peu dommage d'avoir ce fonctionnnement "on" par défaut et nous avons réfléchi à une boite qui fonctionnerait au contraire en étant fermée "au repos" et qui a besoin d'alimentation pour s'ouvrir.
@@ -31,4 +31,7 @@ Cette serrure est imprimable en 3D.
 ## Fichiers pour impression 3D
 
 
-
+## Eléments d'électronique et informatique travaillés
+* Design et impression 3D
+* Gestion d'un servo moteur
+* (Beaucoup de bricolage !)

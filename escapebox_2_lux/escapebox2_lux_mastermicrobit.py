@@ -21,6 +21,9 @@ pins=[pin0,pin1,pin2]
 for pin in pins:
     pin.set_pull(pin.PULL_DOWN)
 medianes=[0,0,0]
+
+sleep(2000) #attendre que tout soit bien installé pour éviter un changement de lumière
+
 for i in range(3):
     medianes[i]=getLectureMediane(pins[i],500)
     print(i,") La valeur médiane est "+str(medianes[i]))

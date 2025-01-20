@@ -39,7 +39,7 @@ while True:
         oldDiffRelatives[index] = diffRelatives[index]
         values[index] = pin.read_analog()
         diffRelatives[index]=abs(values[index]-seuils[index])/seuils[index]
-        if (diffRelatives[index]>0.10) and (oldDiffRelatives[index] <0.10): # la pièce 'index' vient d'être mise
+        if (diffRelatives[index]>0.10) and (oldDiffRelatives[index] <0.10): # la pièce 'index' vient d'etre mise
             display.show(Image.HAPPY)
             sleep(500)
             display.clear()

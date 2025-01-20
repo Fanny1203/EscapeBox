@@ -47,6 +47,6 @@ Chaque module dispose de sa propre documentation détaillée incluant :
 * Les instructions de montage
 * Le code source (si applicable)
 
-## Affiche de départ
-
+## Scenario
+Le scénario général de ce projet est le suivant : on cherche à découvrir qui est le Père Noël car il est le seul à pouvoir faire allumer la guirlande lumineuse.
 ![Affiche du projet](escapebox_affiche_annonce.png)
