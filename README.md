@@ -1,9 +1,8 @@
 # Escape Box - Collection d'énigmes électroniques
 
-![Affiche du projet](escapebox_affiche_annonce.png)
-
 Ce projet regroupe une collection d'énigmes électroniques proposées en décembre 2024 au SEM.
-Chaque module représente une énigme différente qui est un pretexte pour découvrir des éléments d'électronique.
+Chaque projet correspond à une énigme qui est un pretexte pour découvrir des éléments d'électronique.
+Dans sa réalisation initiale, les énigmes étaient enchaînées comme indiqué ci-dessous.
 
 
 ## Les différents modules
@@ -42,12 +41,12 @@ Une ericscape, c'est une boite idéale pour les escape games: elle intégère un
 ## Comment utiliser ce projet
 
 Chaque module dispose de sa propre documentation détaillée incluant :
-- Une description de l'énigme
-- Le matériel nécessaire
-- Des photos et vidéos de démonstration
-- Les instructions de montage
-- Le code source (si applicable)
+* Une description de l'énigme
+* Le matériel nécessaire
+* Des photos et vidéos de démonstration
+* Les instructions de montage
+* Le code source (si applicable)
 
-## Contribution
+## Affiche de départ
 
-N'hésitez pas à proposer des améliorations ou de nouveaux modules !
+![Affiche du projet](escapebox_affiche_annonce.png)
