@@ -37,7 +37,7 @@ pourrait aussi servir en diminuant de quelques milimètres la hauteur de la gach
 
 
 ## Fichiers pour impression 3D
-Le projet est accessible sur onshape [onshape](https://cad.onshape.com/documents/3392f1d195d84b6c0f49f3b8/w/7acc2ea9644cbdbbe5b3fe8c/e/d5a02ecf17d01a1ba5a197bc)
+Le projet est accessible sur onshape [onshape]https://cad.onshape.com/documents/857442b5f974ab44d4949ac7/w/de1b73ec778c03cdef5c21a4/e/ea2b3c01252a64e7bc468701)
 Le fichier est accessible en lecture à toute personne connectée. Il est alors possible de le télécharger au format STL pour l'imprimer.
 
 
