@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Micro:bit Formulaire Radio</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+</head>
+<body>
+  <main>
+    <button id="connectButton">Connecter le micro:bit</button><br><br>
+    <label>Canal : <input type="number" id="canal" min="0" max="255" value="23" /></label><br><br>
+    <label>Message : <input type="text" id="message" value="Bonjour" /></label><br><br>
+    <label><input type="checkbox" id="debug" checked> debug (affiche sur microbit)</label><br><br>
+    <button id="sendButton">Envoyer</button>
+    <p id="status">Non connecté</p>
+  </main>
+
+  <script>
+    let port;
+    let writer;
+
+    document.getElementById("connectButton").onclick = async () => {
+      try {
+        port = await navigator.serial.requestPort();
+        await port.open({ baudRate: 115200 });
+        writer = port.writable.getWriter();
+        document.getElementById("status").textContent = "Connecté";
+      } catch (err) {
+        document.getElementById("status").textContent = "Erreur de connexion";
+        console.error(err);
+      }
+    };
+
+    document.getElementById("sendButton").onclick = async () => {
+      if (!writer) return;
+      const canal = document.getElementById("canal").value;
+      const msg = document.getElementById("message").value;
+      const debug = document.getElementById("debug").checked;
+      const fullMsg = `${canal}:${msg}:${debug ? 'debug' : 'nodebug'}\n`;
+      const encoder = new TextEncoder();
+      await writer.write(encoder.encode(fullMsg));
+    };
+  </script>
+</body>
+</html>
