@@ -69,19 +69,27 @@ Le fichier est accessible en lecture à toute personne connectée. Il est alors 
 - ATTENTION ! La communication radio en python et en blocs n'est pas la même ! Les protocoles ne sont pas compatibles.
 - Si vous codez le master en python, le slave devra être en python. Si vous codez le master en blocs, le slave devra être en blocs.
 - Pour le master (émeteur du message), cela dépendra bien sûr des projets (par exemple, on envoie le message radio "boite1" si la température dépasse 25°C). Vous trouverez un exemple de code pour tester, en appuyant sur un bouton.
+- Vous trouverez également un master un peu plus élaboré qui écoute le port série un message du type grouperadio:msg:debug et envoie le message radio selon ces instructions. Ce message peut être controlé par une page web (index.html)
+- Vous devrez tester les angles du servo moteur pour qu'ils soient optimaux. Nous laissons dans le code les angles qui ont fonctionné le plus souvent.
 
 ### Si vous codez en python
-- [slave_python.py](slave_python.py)
-- [master_python.py](master_python.py)
+- [python_slave.py](python_slave.py)
+- [python_master.py](python_master.py)
 
 Une fois les fichiers téléchargés, vous pouvez les glisser dans un nouveau projet sur [makecode ](https://python.microbit.org/)
 
 ### Si vous codez en blocs
-- [slave_bloc.hex](slave_bloc.hex)
-- [voir code en image](slave_bloc_image.png)
-Le code repose sur l'extension _servomotor_
-
+Vous pouvez, au choix, 
+1) télécharger le fichier .hex ou copier le code en javascript puis transformer en blocs sur makecode
+- [bloc_slave.hex](bloc_slave.hex)
+- [bloc_master.hex](bloc_master.hex)
 Une fois les fichiers téléchargés, vous pouvez les glisser dans un nouveau projet sur [makecode ](https://makecode.microbit.org/)
+2) copier le code en javascript puis transformer en blocs sur makecode
+- [javascript_slave.js](javascript_slave.js)
+- [javascript_master.js](javascript_master.js)
+Copier coller le code sur [makecode ](https://makecode.microbit.org/), en mode javascript.
+Le code repose sur l'extension _servo_ , il faudra l'ajouter manuellement en cliquant sur la roue dentée en haut à droite, puis extensions et chercher "servo". Vous pouvez ensuite swicher vers une vision en blocs.
+
 
 ### Gestion du servo moteur
 En mode analogique, on a des pulsations régulères (toutes les 20 ms).
@@ -92,8 +100,9 @@ Deux solutions pour économiser dans les moments où on n'utilise pas le servo m
 - passer en digital
 On constate bien la différence: le servo moteur n'exercice pas de résistance si on essaye de le pousser quand il est "au repos"
 Il est conseillé de tester l'ouverture des servo moteurs avant de les installer définitivement.
-Après plusieurs tâtonnements, les angles proposés dans les codes nous semblent optimaux : ils ont fonctionné pour les 10 boites réalisées.
+Après plusieurs tâtonnements, les angles proposés dans les codes nous semblent optimaux : ils ont fonctionné pour la plupart des boites réalisées.
 
+En javascript, le code est plus simple car on repose sur l'extension _servo_.
 
 
 # Entretien de la boite

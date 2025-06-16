@@ -1,13 +1,23 @@
+// variables du projet
+let group = 23
+let message = "boite1"
+let debug = true
+
+radio.setGroup(group)
+
 input.onButtonPressed(Button.A, function () {
-    envoyermessageradio("boite1")
+    envoyermessageradio(message)
 })
-function envoyermessageradio (texte: string) {
-    basic.showIcon(IconNames.Heart)
-    radio.sendString("boite1")
-    basic.pause(500)
-    basic.clearScreen()
-}
+
 input.onButtonPressed(Button.B, function () {
     envoyermessageradio("sem")
 })
-radio.setGroup(23)
+
+function envoyermessageradio (texte: string) {
+    basic.showIcon(IconNames.Heart)
+    radio.on()
+    radio.sendString(texte)
+    basic.pause(500)
+    radio.off()
+    basic.clearScreen()
+}
